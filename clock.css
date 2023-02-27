@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
+body{
+    background-color: #3A98B9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 30%;
+    justify-content: center;
+    top: 50px;
+    
+}
+.date {
+    display: flex;
+    justify-content: center;
+    background-color: #BAD7E9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.date p{
+    
+    color: #2B3467;
+}
+.clock{
+    display: flex;
+    justify-content: center;    
+    background-color: #FCFFE7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+    
+}
+.clock p{
+    color: #2B3467;
+}
+p{
+    font-size:28px;
+}
+.timer{
+    display: flex; 
+    justify-content: center; 
+    background-color: #EB455F;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+    
+}
+.timer p{
+    color: #2B3467;
+}
+.content{
+    margin-right: 20px;
+    display: flex;
+}
+label{
+    align-self: center;
+}
+.button{
+    margin-right:10px ;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+.buttons{
+    display: flex;
+}
+.start{
+    background-color: #1F8A70;
+}
+.stop{
+    background-color: #C060A1;
+}
+.reset{
+    background-color: #3E54AC;
+}
